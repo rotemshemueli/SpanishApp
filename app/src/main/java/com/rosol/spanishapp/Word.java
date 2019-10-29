@@ -1,4 +1,4 @@
-package com.example.spanishapp;
+package com.rosol.spanishapp;
 
 public class Word {
     private String mDefaultWord;

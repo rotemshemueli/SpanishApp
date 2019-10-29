@@ -13,13 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.spanishapp;
+package com.rosol.spanishapp;
 import androidx.appcompat.app.AppCompatActivity;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+
+import com.example.spanishapp.R;
 
 import java.util.ArrayList;
 
@@ -56,7 +58,7 @@ public class PhrasesActivity extends AppCompatActivity {
         words.add(new Word("Goodnight", "Buenas noches", R.raw.phrases_goodnight));
         words.add(new Word("I don't understand", "No entiendo", R.raw.phrases_idontunderstand));
         words.add(new Word("What", "Qué?", R.raw.phrases_what));
-        words.add(new Word("Today", "Hoy", R.raw.phrases_today));
+        words.add(new Word("Today", "Hoy", R.raw.phrases_today1));
         words.add(new Word("Now", "Ahora", R.raw.phrases_now));
 
         WordAdapter adapter = new WordAdapter(this, words, R.color.category_phrases);

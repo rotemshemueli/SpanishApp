@@ -5,11 +5,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/sfaradi"
+        android:icon="@drawable/spanish"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.rosol.spanishapp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,40 +17,40 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NumbersActivity"
+            android:name="com.rosol.spanishapp.NumbersActivity"
             android:label="@string/category_numbers"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.rosol.spanishapp.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value="com.rosol.spanishapp.MainActivity"/>
         </activity>
         <activity
-            android:name=".FamilyActivity"
+            android:name="com.rosol.spanishapp.FamilyActivity"
             android:label="@string/category_family"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.rosol.spanishapp.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value="com.rosol.spanishapp.MainActivity"/>
         </activity>
         <activity
-            android:name=".ColorsActivity"
+            android:name="com.rosol.spanishapp.ColorsActivity"
             android:label="@string/category_colors"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.rosol.spanishapp.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value="com.rosol.spanishapp.MainActivity"/>
         </activity>
         <activity
-            android:name=".PhrasesActivity"
+            android:name="com.rosol.spanishapp.PhrasesActivity"
             android:label="@string/category_phrases"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.rosol.spanishapp.MainActivity">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value="com.rosol.spanishapp.MainActivity"/>
         </activity>
     </application>
 

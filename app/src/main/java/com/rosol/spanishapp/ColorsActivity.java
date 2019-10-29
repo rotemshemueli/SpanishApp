@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.spanishapp;
+package com.rosol.spanishapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.media.MediaPlayer;
@@ -22,6 +22,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+
+import com.example.spanishapp.R;
 
 import java.util.ArrayList;
 

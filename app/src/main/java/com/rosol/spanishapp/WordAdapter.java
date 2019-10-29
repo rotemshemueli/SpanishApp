@@ -1,4 +1,4 @@
-package com.example.spanishapp;
+package com.rosol.spanishapp;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
+
+import com.example.spanishapp.R;
 
 import java.util.ArrayList;
 

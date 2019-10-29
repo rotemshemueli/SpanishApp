@@ -1,11 +1,13 @@
 
-package com.example.spanishapp;
+package com.rosol.spanishapp;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
+
+import com.example.spanishapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
